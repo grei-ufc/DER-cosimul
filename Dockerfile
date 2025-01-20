@@ -22,7 +22,7 @@
 # Para criar um container Docker de desenvolvimento a partir da imagem descrita nesse
 # arquivo Dockerfile, primeiro é preciso construir a imagem Docker usando o seguinte comando:
 # ```
-# docker image build --build-arg GITHUB_TOKEN=your_personal_access_token -t your_image_name .
+# docker image build --build-arg -t your_image_name .
 # ```
 #
 # Em seguida, é necessário criar um container a partir da imagem construida anteriormente:
@@ -39,10 +39,8 @@ FROM lucassmelo/python-base-image:0.2
 WORKDIR /app
 
 # Defina o token de acesso pessoal como uma variável de ambiente
-ARG GITHUB_TOKEN
-ENV GITHUB_TOKEN=${GITHUB_TOKEN}
 
-RUN git clone https://${GITHUB_TOKEN}@github.com/grei-ufc/DER-cosimul.git
+RUN git clone https://github.com/grei-ufc/DER-cosimul.git
 
 WORKDIR /app/DER-cosimul
 
