@@ -1,10 +1,5 @@
-arrow>=1.0
-matplotlib
+arrow
 mosaik
-mosaik-csv>=1.2
+mosaik-csv
 mosaik-hdf5
--e git+https://gitlab.com/mosaik/components/data/mosaik-web.git@develop#egg=mosaik-web
 mosaik-pandapower
-pandas==1.2.4
-pandapower
-simbench
