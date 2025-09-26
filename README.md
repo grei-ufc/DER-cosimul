@@ -1,6 +1,11 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/grei-ufc/DER-cosimul)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/grei-ufc/DER-cosimul)
 
+
+# This repository is archived, 
+
+The new repository for this project is [tsre-der-opentes](https://github.com/grei-ufc/tsre-der-opentes)
+
 This project is devloped under [GREI](https://grei-ufc.github.io/) Lab. (Smart Grids Research Group) in Federal Universiy of Ceara, Brazil, under supervision of [professor Lucas Silveira](https://lucassm.pro).
 
 This repository contains the Python codes of the DERCosimul project. This project aims to test and validate new control strategies for *Distributed Energy Resources* connected to the electrical distribution grid using **co-simulation** to implent the tests and analisys.
