@@ -2,9 +2,12 @@
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/grei-ufc/DER-cosimul)
 
 
-# This repository is archived, 
+# This repository was archived
 
-The new repository for this project is [tsre-der-opentes](https://github.com/grei-ufc/tsre-der-opentes)
+## The new repository for this project is [tsre-der-opentes](https://github.com/grei-ufc/tsre-der-opentes)
+
+
+
 
 This project is devloped under [GREI](https://grei-ufc.github.io/) Lab. (Smart Grids Research Group) in Federal Universiy of Ceara, Brazil, under supervision of [professor Lucas Silveira](https://lucassm.pro).
 
